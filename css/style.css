@@ -89,19 +89,19 @@ body{
 #love-modal p{
   color:rgba(230,230,230,1);
   background-color:rgba(250,20,20,0.8);
-  font-size:40px;
+  font-size:30px;
   padding:20px 40px;
   display:block;
   border-radius:60px;
   position:absolute;
-  top:20%;
-  left:40%;
+  top:10%;
+  left:30%;
 }
 
 #love-modal img{
   position:absolute;
   top:30%;
-  left:-10;
+  left:-20;
 }
 
 #love-modal-overlay{
