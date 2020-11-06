@@ -1,0 +1,115 @@
+/*
+* {
+  box-sizing:border-box;
+}
+*/
+body{
+  font-family:"Hiragino Kaku Gothic ProN"
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+}
+.title{
+  text-align:center;
+  color:rgb(50,50,60);
+}
+.title h1{
+  opacity:0.7;
+  font-size:45px;
+  letter-spacing:5px;
+  display:block;
+}
+.megane{
+  position:relative;
+  position:absolute;
+  top:70%;
+}
+.ikari{
+  position:absolute;
+  top:-20%;
+  left:80%;
+  display:none;
+}
+.yubi{
+  position:relative;
+  position:absolute;
+  top:60%;
+  left:60%;
+}
+.lovepoint{
+  position:absolute;
+  top:-25%;
+  left:30%;
+  display:block;
+  height:20%;
+  color:white;
+}
+.message{
+  font-size:35px;
+  color:red;
+  text-align:center;
+  position:relative;
+  
+}
+.title-serifu{
+  position:absolute;
+  top:30%;
+  left:30%;
+  display:none;
+
+}
+.megane-serifu{
+  position:absolute;
+  top:30%;
+  left:30%;
+  display:none;
+}
+.yubi-serifu{
+  position:absolute;
+  top:30%;
+  left:30%;
+  display:none;
+}
+.other-serifu{
+  position:absolute;
+  top:30%;
+  left:30%;
+  display:none;
+}
+
+#love-modal{
+  width:100%;
+  margin:0 auto;
+  z-index:10;
+  display:none;
+
+}
+#love-modal p{
+  color:rgba(230,230,230,1);
+  background-color:rgba(250,20,20,0.8);
+  font-size:50px;
+  padding:20px 40px;
+  display:block;
+  border-radius:60px;
+  position:absolute;
+  top:20%;
+  left:50%;
+}
+
+#love-modal img{
+  position:absolute;
+  top:30%;
+  left:0;
+}
+
+#love-modal-overlay{
+  z-index:5;
+  display:none;
+  top:0;
+  left:0;
+  width:100%;
+  height:120%;
+  background-color:rgba(0,0,0,0.6);
+}
