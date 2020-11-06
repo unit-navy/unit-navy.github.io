@@ -17,8 +17,8 @@ body{
 }
 .title h1{
   opacity:0.7;
-  font-size:45px;
-  letter-spacing:5px;
+  font-size:35px;
+  letter-spacing:3px;
   display:block;
 }
 .megane{
@@ -56,26 +56,26 @@ body{
 .title-serifu{
   position:absolute;
   top:30%;
-  left:30%;
+  left:20%;
   display:none;
 
 }
 .megane-serifu{
   position:absolute;
   top:30%;
-  left:30%;
+  left:20%;
   display:none;
 }
 .yubi-serifu{
   position:absolute;
   top:30%;
-  left:30%;
+  left:20%;
   display:none;
 }
 .other-serifu{
   position:absolute;
   top:30%;
-  left:30%;
+  left:20%;
   display:none;
 }
 
